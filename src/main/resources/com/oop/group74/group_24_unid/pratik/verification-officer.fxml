@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<VBox spacing="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.oop.group74.group_24_unid.pratik.VerificationOfficerController">
+    <Label text="Verification Officer Panel"/>
+    <ListView fx:id="applicationList"/>
+    <Button text="View Details" onAction="#handleViewDetails"/>
+    <Button text="Download Documents" onAction="#handleDownloadDocuments"/>
+    <Button text="Check National Data" onAction="#handleCheckNationalData"/>
+</VBox>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.oop.group74.group_24_unid.pratik.VerificationOfficerController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>

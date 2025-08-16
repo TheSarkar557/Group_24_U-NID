@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.oop.group74.group_24_unid.pratik.UNIDGeneratorController">
+    <Label text="U-NID Generator Panel"/>
+    <ListView fx:id="approvedApplications"/>
+    <Button text="Generate U-NID Card" onAction="#handleGenerateUNID"/>
+</VBox>
